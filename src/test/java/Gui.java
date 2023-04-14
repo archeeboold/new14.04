@@ -11,7 +11,7 @@ public class Gui {
         okno.setLocationRelativeTo(null);
 
         JTextArea textArea = new JTextArea(); //text in this frame
-        textArea.setText("Hey Hey");
+        textArea.setText("Hey");
 
         textArea.setSelectionColor(Color.RED); //
         textArea.setSelectedTextColor(Color.WHITE);

@@ -11,13 +11,14 @@ public class Gui {
         okno.setLocationRelativeTo(null);
 
         JTextArea textArea = new JTextArea(); //text in this frame
-        textArea.setText("Hey");
-        textArea.setSelectionColor(Color.RED);
+        textArea.setText("Hey Hey");
+
+        textArea.setSelectionColor(Color.RED); //
         textArea.setSelectedTextColor(Color.WHITE);
         textArea.setSelectionStart(0);
         textArea.setSelectionEnd(3);
 
-        okno.getContentPane().add(textArea); //displaying text in the frame
+        okno.getContentPane().add(textArea);//displaying text in the frame
     }
 }
 
